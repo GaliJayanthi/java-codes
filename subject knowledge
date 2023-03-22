@@ -1,0 +1,6 @@
+public Subject() {
+    sub_name = "Physics";
+    marks = 82.0;
+    status = true;
+}
+
