@@ -1,0 +1,26 @@
+class Game {
+    int[][] board;
+    int pos_row;
+    int pos_col;
+
+    public Game(int size, int row, int col) {
+        board = new int[size][size];
+        pos_row = row;
+        pos_col = col;
+        board[pos_row][pos_col] = 1;
+    }
+
+    public void draw() {
+        for (int[] row : board) {
+            for (int col : row) {
+                System.out.print(col + " ");
+            }
+            System.out.println();
+        }
+    }
+}
+
+
+
+
+
