@@ -1,0 +1,5 @@
+Movie(){
+    movieName = "Zootopia";
+    collections = 5000;
+}
+
