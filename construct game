@@ -1,0 +1,8 @@
+public Game() {
+    name = "Angry Birds";
+    lives = 3;
+}
+
+
+
+
